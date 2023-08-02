@@ -1,0 +1,65 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lumanosimo&display=swap');
+
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* HEADER */
+
+.logo   {
+    width: 10rem;
+}
+
+header {
+    background-color: #8601F6;
+}
+
+.fuentes {
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.fuentes li a:hover {
+    background-color: #AF7AD5;
+    color: #fff;
+}
+
+/* HERO */
+.colorBtn {
+    background-color: #8601F6;
+    color: #fff;
+}
+
+.colorBtn:hover {
+    background-color: #AF7AD5;
+    color: #fff;
+}
+
+
+
+
+/* PRODUCTOS */
+.titulosProductos {
+    background-color: #8601F6 ;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+.titulosProductos {
+    font-size: 3rem;
+}
+
+.imgCarousel {
+    height: 350px;
+    object-fit: cover;
+}

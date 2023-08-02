@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calavera </title>
+    <!-- BS CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo.avif" type="image/x-icon">
+
+
+
+
+</head>
+
+<body class="container-fluid">
+
+    <!-- HEADER -->
+    <header class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="img/logo.avif" alt="logo calabera con gorra">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto fuentes">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Pictures </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Stores </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"> Contacs </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- HERO -->
+
+    <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5">
+            <div class="col-lg-7 text-center text-lg-start">
+                <h1 class="display-4 fw-bold lh-1 text-body-emphasis mb-3">Calabera, The best random pictures</h1>
+                <p class="col-lg-10 fs-4">Below is an example form built entirely with Bootstrap’s form controls. Each
+                    required form group has a validation state that can be triggered by attempting to submit the form
+                    without completing it.</p>
+            </div>
+            <div class="col-md-10 mx-auto col-lg-5">
+                <form class="p-4 p-md-5 border rounded-3 bg-body-tertiary">
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                        <label for="floatingPassword">Password</label>
+                    </div>
+
+                    <button class="w-100 btn btn-lg colorBtn" type="submit">Sign up</button>
+
+                    <hr class="my-4">
+                    <small class="text-body-secondary">Sing up for the best offers.</small>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- CAROUSEL -->
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/banana.jpg" class="d-block w-100" alt="banana">
+            </div>
+            <div class="carousel-item">
+                <img src="img/ciencia.jpg" class="d-block w-100" alt="cajita triste bajo lluvia">
+            </div>
+            <div class="carousel-item">
+                <img src="img/heroina.jpg" class="d-block w-100" alt="heroina">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <div class="titulosProductos">
+        <h2> Pictures </h2>
+
+    </div>
+
+        <!-- ADJUST IMG FOR CARDS -->
+    <div class="row">
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+                <img src="img/foco.jpg" class="card-img-top" alt="foco">
+                <div class="card-body">
+                    <h3 class="card-title"> Light bulb </h3>
+                    <p class="card-text"> Best pictures for your deco</p>
+                    <a href="#" class="btn btn colorBtn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+                <img src="img/campfire.jpg" class="card-img-top" alt="Campfire">
+                <div class="card-body">
+                    <h3 class="card-title"> Dice </h3>
+                    <p class="card-text"> Best pictures for your deco</p>
+                    <a href="#" class="btn btn colorBtn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+                <img src="img/chair ballon.jpg" class="card-img-top" alt="chair ballon">
+                <div class="card-body">
+                    <h3 class="card-title"> Bird </h3>
+                    <p class="card-text"> Best pictures for your deco</p>
+                    <a href="#" class="btn btn colorBtn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+                <img src="img/flower.jpg" class="card-img-top" alt="rose">
+                <div class="card-body">
+                    <h3 class="card-title"> Light bulb </h3>
+                    <p class="card-text"> Best pictures for your deco</p>
+                    <a href="#" class="btn btn colorBtn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+                <img src="img/highway mountain.jpg" class="card-img-top" alt="highway">
+                <div class="card-body">
+                    <h3 class="card-title"> Light bulb </h3>
+                    <p class="card-text"> Best pictures for your deco</p>
+                    <a href="#" class="btn btn colorBtn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+                <img src="img/retro tv.jpg" class="card-img-top" alt="retro tv">
+                <div class="card-body">
+                    <h3 class="card-title"> Dice </h3>
+                    <p class="card-text"> Best pictures for your deco</p>
+                    <a href="#" class="btn btn colorBtn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+                <img src="img/starwars troops.jpg" class="card-img-top" alt="starwars troop">
+                <div class="card-body">
+                    <h3 class="card-title"> Bird </h3>
+                    <p class="card-text"> Best pictures for your deco</p>
+                    <a href="#" class="btn btn colorBtn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+                <img src="img/rooftop.jpg" class="card-img-top" alt="rooftop">
+                <div class="card-body">
+                    <h3 class="card-title"> Light bulb </h3>
+                    <p class="card-text"> Best pictures for your deco</p>
+                    <a href="#" class="btn btn colorBtn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+                <img src="img/ligt bulb.jpg" class="card-img-top" alt="light bulb">
+                <div class="card-body">
+                    <h3 class="card-title"> Light bulb </h3>
+                    <p class="card-text"> Best pictures for your deco</p>
+                    <a href="#" class="btn btn colorBtn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+                <img src="img/campfire.jpg" class="card-img-top" alt="campfire">
+                <div class="card-body">
+                    <h3 class="card-title"> Dice </h3>
+                    <p class="card-text"> Best pictures for your deco</p>
+                    <a href="#" class="btn btn colorBtn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+                <img src="img/chair ballon.jpg" class="card-img-top" alt="chair balloon">
+                <div class="card-body">
+                    <h3 class="card-title"> Bird </h3>
+                    <p class="card-text"> Best pictures for your deco</p>
+                    <a href="#" class="btn btn colorBtn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 col-sm-12">
+            <div class="card text-center">
+                <img src="img/flower.jpg" class="card-img-top" alt="flower">
+                <div class="card-body">
+                    <h3 class="card-title"> Light bulb </h3>
+                    <p class="card-text"> Best pictures for your deco</p>
+                    <a href="#" class="btn btn colorBtn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- FOOTER -->
+
+
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pictures</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Stores</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Contacts</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">&copy; 2023 Calavera Mexico, Inc</p>
+    </footer>
+
+
+    <!-- JS BS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+
+
+
+
+</body>
+
+</html>
